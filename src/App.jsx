@@ -12,11 +12,14 @@ function App() {
         <br />
         <Link to="/santiago"> Santiago </Link>
         <br />
+        <Link to="/chocorramo"> Chocorramo </Link>
+        <br />
 
 
         <Routes>
           <Route path="/hero" element={<Hero />} />
           <Route path="/santiago" element={<Santiago />} />
+          <Route path="/chocorramo" element={<Chocorramo />} />
         </Routes>
         
       </BrowserRouter>
