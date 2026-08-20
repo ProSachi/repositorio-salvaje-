@@ -2,6 +2,7 @@ import './App.css'
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
 import Santiago from './components/Santiago'
 import Hero from './components/Hero'
+import Chocorramo from './components/chocorramo' // <--- AGREGA ESTA LÍNEA
 
 function App() {
 
@@ -15,7 +16,6 @@ function App() {
         <Link to="/chocorramo"> Chocorramo </Link>
         <br />
 
-
         <Routes>
           <Route path="/hero" element={<Hero />} />
           <Route path="/santiago" element={<Santiago />} />
@@ -23,8 +23,6 @@ function App() {
         </Routes>
         
       </BrowserRouter>
-
-
     </>
   )
 }
