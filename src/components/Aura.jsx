@@ -8,6 +8,7 @@ const Aura = () => {
       <h1>AURA</h1>
       <h2>Somos el team del Aura mi fafa</h2>
       <div>
+        
         <h3>BINARIOS</h3>
         <div>
           <img src={binario} alt="Abecedario en binario" />
