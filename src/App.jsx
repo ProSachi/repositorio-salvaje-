@@ -1,5 +1,7 @@
 import './App.css'
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
+import Hero from './components/Hero'
+import JuanZapata from './components/JuanZapata/JuanZapata'
 import Santiago from './components/Santiago'
 import Tarjetas from './components/Tarjetas'
 import Hero from './components/Hero'
@@ -31,6 +33,11 @@ function App() {
         <br />
         <Link to="/ModoOscuro-AAL"> Alejandro Aristizabal </Link>
         <br />
+        <Link to='/JuanZapata'>Juan Zapata</Link>
+
+        <Routes>
+          <Route path="/hero" element={<Hero />} />git 
+          <Route path="/JuanZapata" element={<JuanZapata />} />
         <Link to="/gojo"> Gojo </Link>
         <br />
         <Link to="/chocorramo"> Chocorramo </Link>
