@@ -29,6 +29,8 @@ function App() {
         <br />
         <Link to="/gojo"> Gojo </Link>
         <br />
+        <Link to="/chocorramo"> Chocorramo </Link>
+        <br />
         <Link to="/Aura"> Aura </Link>
 
         <Link to="/juan"> Juan </Link>
@@ -43,6 +45,7 @@ function App() {
         <Routes>
           <Route path="/hero" element={<Hero />} />
           <Route path="/santiago" element={<Santiago />} />
+          <Route path="/chocorramo" element={<Chocorramo />} />
           <Route path="/Aura" element={<Aura />} />
 
           <Route path="/juan" element={<Juan />} />
