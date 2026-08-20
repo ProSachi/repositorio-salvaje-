@@ -2,6 +2,7 @@ import './App.css'
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
 import Santiago from './components/Santiago'
 import Hero from './components/Hero'
+import Gojo from './components/gojo'
 
 function App() {
 
@@ -12,17 +13,21 @@ function App() {
         <br />
         <Link to="/santiago"> Santiago </Link>
         <br />
+        <Link to="/gojo"> Gojo </Link>
+        <br />
 
 
         <Routes>
           <Route path="/hero" element={<Hero />} />
           <Route path="/santiago" element={<Santiago />} />
+          <Route path="/gojo" element={<Gojo />} />
+
         </Routes>
         
       </BrowserRouter>
 
 
-    </>
+    </> 
   )
 }
 
