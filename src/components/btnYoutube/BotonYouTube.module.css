@@ -1,0 +1,18 @@
+.btnYoutube {
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #FF0000;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: background-color 0.2s ease;
+}
+
+.btnYoutube:hover {
+    background-color: #cc0000;
+}

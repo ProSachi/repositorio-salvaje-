@@ -1,0 +1,46 @@
+:root {
+  --color-pine: #1F5E4A;
+  --color-clay: #E8643C;
+  --color-ink: #15201B;
+  --color-marigold: #F2A03D;
+  --color-white: #FFFFFF;
+}
+
+.gojo-container {
+  padding: 20px;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+.gojo-btn {
+  background-color: var(--color-pine);
+  color: var(--color-white);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.2s ease;
+}
+
+.gojo-btn.active {
+  background-color: var(--color-clay);
+}
+
+.gojo-btn:hover {
+  opacity: 0.9;
+}
+
+.gojo-info {
+  max-width: 300px;
+  margin-top: 15px;
+  padding: 12px;
+  background-color: var(--color-white);
+  border-left: 3px solid var(--color-marigold);
+  border-radius: 4px;
+  font-size: 13px;
+  line-height: 1.4;
+  color: var(--color-ink);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
