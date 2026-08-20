@@ -1,0 +1,27 @@
+.tarjeta-vacia {
+  width: 260px;
+  cursor: default;
+}
+
+.tarjeta-vacia-imagen {
+  height: 240px;
+  background: var(--code-bg);
+}
+
+.tarjeta-vacia-linea {
+  display: block;
+  height: 12px;
+  border-radius: 6px;
+  background: var(--code-bg);
+  margin: 0 0 10px;
+  width: 100%;
+}
+
+.tarjeta-vacia-linea.corta {
+  width: 45%;
+}
+
+.tarjeta-vacia-linea.media {
+  width: 65%;
+  margin-bottom: 0;
+}
