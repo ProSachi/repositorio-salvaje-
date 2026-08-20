@@ -1,3 +1,4 @@
+import { SportShoe } from "lucide-react"
 import styles from "./Tarjetas.module.css"
 
 const Tarjetas = () => {
@@ -27,7 +28,7 @@ const Tarjetas = () => {
                 {tarjeta.map((dato) => (
                     <div className={styles.tarjeta} key={dato.id}>
                         <div className={styles.tarjetaImagen}>
-                            img
+                            <SportShoe size={70}/>
                         </div>
 
                         <div className={styles.tarjetaInfo}>
