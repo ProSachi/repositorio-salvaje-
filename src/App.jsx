@@ -16,8 +16,7 @@ function App() {
         <Link to='/JuanZapata'>Juan Zapata</Link>
 
         <Routes>
-          <Route path="/hero" element={<Hero />} />
-          <Route path="/santiago" element={<Santiago />} />
+          <Route path="/hero" element={<Hero />} />git 
           <Route path="/JuanZapata" element={<JuanZapata />} />
         </Routes>
         
