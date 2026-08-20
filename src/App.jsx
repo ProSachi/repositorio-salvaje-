@@ -1,6 +1,7 @@
 import './App.css'
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
 import Hero from './components/Hero'
+import Carolina from './components/Carolina'
 import ReactRoadmap from './components/ReactRoadmap'
 
 function App() {
@@ -12,10 +13,13 @@ function App() {
         <br />
         <Link to="/reactroadmap"> Santiago </Link>
         <br />
+        <Link to="/carolina">Carolina</Link>
+        <br />
 
 
         <Routes>
           <Route path="/hero" element={<Hero />} />
+          <Route path="/carolina" element={<Carolina />} />
           <Route path="/reactroadmap" element={<ReactRoadmap />} />
         </Routes>
 
