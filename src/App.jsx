@@ -1,6 +1,7 @@
 import './App.css'
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
 import Hero from './components/Hero'
+import BotonYouTube from './components/btnYoutube/BotonYouTube'
 import TarjetaVacia from './components/TarjetaVacia/TarjetaVacia'
 import FooterAgd from './components/FooterAgd'
 import Carolina from './components/Carolina'
@@ -19,12 +20,15 @@ function App() {
         <br />
         <Link to="/TarjetaVacia"> Pitorro </Link>
         <br />
+        <Link to="/btnyoutube">No oprimir</Link>
 
         <Link to="footeragd"> FooterAgd </Link>
 
 
         <Routes>
           <Route path="/hero" element={<Hero />} />
+          <Route path="/santiago" element={<Santiago />} />
+          <Route path="/btnyoutube" element={<BotonYouTube />} />
           <Route path="/TarjetaVacia" element={<TarjetaVacia />} />
 
           <Route path="/footeragd" element={<FooterAgd/>} />
