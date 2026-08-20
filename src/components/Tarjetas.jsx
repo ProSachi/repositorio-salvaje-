@@ -32,7 +32,7 @@ const Tarjetas = () => {
                         </div>
 
                         <div className={styles.tarjetaInfo}>
-                            <h1>Zapato: {dato.nombre}</h1>
+                            <h3>Zapato: {dato.nombre}</h3>
                             <p>Talla: {dato.talla}</p>
                             <span>Precio: {dato.precio}</span>
                         </div>

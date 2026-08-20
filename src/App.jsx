@@ -13,7 +13,7 @@ function App() {
         <br />
         <Link to="/santiago"> Santiago </Link>
         <br />
-        <Link to="/tarjetas"> Tarjetas </Link>
+        <Link to="/tarjetas"> Andrés </Link>
         <br />
 
 
