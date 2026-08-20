@@ -1,10 +1,8 @@
 import './App.css'
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
-import Santiago from './components/Santiago'
 import Tarjetas from './components/Tarjetas'
 import Hero from './components/Hero'
 import Jonatan from './components/jonatan'
-
 import Aura from './components/Aura'
 import Juan from './components/juan'
 import Gojo from './components/gojo'
@@ -15,6 +13,7 @@ import TarjetaVacia from './components/TarjetaVacia/TarjetaVacia'
 import FooterAgd from './components/FooterAgd'
 import Carolina from './components/Carolina'
 import ReactRoadmap from './components/ReactRoadmap'
+import Chocorramo from './components/chocorramo'
 
 function App() {
 
@@ -38,14 +37,15 @@ function App() {
         <Link to="/tarjetas"> Tarjetas </Link>
         <br />
         <Link to="/jonatan"> Jonatan </Link>
+        <br />
         <Link to="/Aura"> Aura </Link>
-
+        <br />
         <Link to="/juan"> Juan </Link>
-        
+        <br />
         <VillaButton />
-
+        <br />
         <Link to="/btnyoutube">No oprimir</Link>
-
+        <br />git 
         <Link to="footeragd"> FooterAgd </Link>
 
 
@@ -60,12 +60,12 @@ function App() {
           <Route path="/juan" element={<Juan />} />
           <Route path="/gojo" element={<Gojo />} />
 
-          
-          <Route path="/ModoOscuro-AAL" element={<ModoOscuro />}/>
+
+          <Route path="/ModoOscuro-AAL" element={<ModoOscuro />} />
           <Route path="/btnyoutube" element={<BotonYouTube />} />
           <Route path="/TarjetaVacia" element={<TarjetaVacia />} />
 
-          <Route path="/footeragd" element={<FooterAgd/>} />
+          <Route path="/footeragd" element={<FooterAgd />} />
           <Route path="/carolina" element={<Carolina />} />
           <Route path="/reactroadmap" element={<ReactRoadmap />} />
         </Routes>
@@ -73,7 +73,7 @@ function App() {
       </BrowserRouter>
 
 
-    </> 
+    </>
   )
 }
 
