@@ -17,7 +17,7 @@ const Tarjetas = () => {
         },
         {
             id: 3,
-            nombre: "Nike",
+            nombre: "Vans",
             talla: "45",
             precio: "$20,000"
         }
