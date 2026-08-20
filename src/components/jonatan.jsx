@@ -6,8 +6,12 @@ const Jonatan = () => {
     <div style={{ textAlign: 'center', marginTop: '20px' }}>
       <h2>Contador: {contador}</h2>
 
+      <button onClick={() => setContador(contador + 1)} style={{ marginLeft: '10px' }}>
+        +
+      </button>
+
       <button onClick={() => setContador(contador - 1)} style={{ marginLeft: '10px' }}>
-        Decrementar
+        -
       </button>
     </div>
   );
