@@ -1,6 +1,8 @@
 import './App.css'
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
 import Hero from './components/Hero'
+import Jonatan from './components/jonatan'
+
 import Aura from './components/Aura'
 import Juan from './components/juan'
 import Gojo from './components/gojo'
@@ -31,6 +33,7 @@ function App() {
         <br />
         <Link to="/chocorramo"> Chocorramo </Link>
         <br />
+        <Link to="/jonatan"> Jonatan </Link>
         <Link to="/Aura"> Aura </Link>
 
         <Link to="/juan"> Juan </Link>
@@ -45,6 +48,7 @@ function App() {
         <Routes>
           <Route path="/hero" element={<Hero />} />
           <Route path="/santiago" element={<Santiago />} />
+          <Route path="/jonatan" element={<Jonatan />} />
           <Route path="/chocorramo" element={<Chocorramo />} />
           <Route path="/Aura" element={<Aura />} />
 
