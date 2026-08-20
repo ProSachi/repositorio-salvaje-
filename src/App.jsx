@@ -48,23 +48,17 @@ function App() {
         <br />git 
         <Link to="footeragd"> FooterAgd </Link>
 
-
         <Routes>
           <Route path="/hero" element={<Hero />} />
-          <Route path="/santiago" element={<Santiago />} />
           <Route path="/tarjetas" element={<Tarjetas />} />
           <Route path="/jonatan" element={<Jonatan />} />
           <Route path="/chocorramo" element={<Chocorramo />} />
           <Route path="/Aura" element={<Aura />} />
-
           <Route path="/juan" element={<Juan />} />
           <Route path="/gojo" element={<Gojo />} />
-
-
           <Route path="/ModoOscuro-AAL" element={<ModoOscuro />} />
           <Route path="/btnyoutube" element={<BotonYouTube />} />
           <Route path="/TarjetaVacia" element={<TarjetaVacia />} />
-
           <Route path="/footeragd" element={<FooterAgd />} />
           <Route path="/carolina" element={<Carolina />} />
           <Route path="/reactroadmap" element={<ReactRoadmap />} />
