@@ -1,6 +1,7 @@
 import './App.css'
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
 import Hero from './components/Hero'
+import Aura from './components/Aura'
 import Juan from './components/juan'
 import Gojo from './components/gojo'
 import VillaButton from './components/VillaButton'
@@ -28,6 +29,8 @@ function App() {
         <br />
         <Link to="/gojo"> Gojo </Link>
         <br />
+        <Link to="/Aura"> Aura </Link>
+
         <Link to="/juan"> Juan </Link>
         
         <VillaButton />
@@ -40,6 +43,8 @@ function App() {
         <Routes>
           <Route path="/hero" element={<Hero />} />
           <Route path="/santiago" element={<Santiago />} />
+          <Route path="/Aura" element={<Aura />} />
+
           <Route path="/juan" element={<Juan />} />
           <Route path="/gojo" element={<Gojo />} />
 
