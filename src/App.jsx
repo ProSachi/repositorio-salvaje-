@@ -11,12 +11,14 @@ function App() {
         <Link to="/hero"> Hero </Link>
         <br />
         <Link to="/santiago"> Santiago </Link>
+        <link to="/ModoOscuro-AAL"> Alejandro Aristizabal </link>
         <br />
 
 
         <Routes>
           <Route path="/hero" element={<Hero />} />
           <Route path="/santiago" element={<Santiago />} />
+          <Routen path="/ModoOscuro-AAL" element={<ModoOscuro-AAL />}/>
         </Routes>
         
       </BrowserRouter>
