@@ -2,6 +2,7 @@ import './App.css'
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
 import Santiago from './components/Santiago'
 import Hero from './components/Hero'
+import JuanZapata from './components/JuanZapata/JuanZapata'
 
 function App() {
 
@@ -12,11 +13,12 @@ function App() {
         <br />
         <Link to="/santiago"> Santiago </Link>
         <br />
-
+        <Link to='/JuanZapata'>Juan Zapata</Link>
 
         <Routes>
           <Route path="/hero" element={<Hero />} />
           <Route path="/santiago" element={<Santiago />} />
+          <Route path="/JuanZapata" element={<JuanZapata />} />
         </Routes>
         
       </BrowserRouter>
