@@ -24,8 +24,7 @@ function App() {
         <br />
         <Link to="/reactroadmap"> Santiago </Link>
         <br />
-        <Link to="/carolina">Carolina</Link>
-        <br />
+
         <Link to="/TarjetaVacia"> Pitorro </Link>
         <br />
         <Link to="/ModoOscuro-AAL"> Alejandro Aristizabal </Link>
@@ -45,8 +44,11 @@ function App() {
         <VillaButton />
         <br />
         <Link to="/btnyoutube">No oprimir</Link>
-        <br />git 
+        <br />
         <Link to="footeragd"> FooterAgd </Link>
+        <br />
+        <Link to="/carolina">Carolina</Link>
+        <br />
 
         <Routes>
           <Route path="/hero" element={<Hero />} />
