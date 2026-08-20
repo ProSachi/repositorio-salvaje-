@@ -1,5 +1,7 @@
 import './App.css'
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
+import Santiago from './components/Santiago'
+import Tarjetas from './components/Tarjetas'
 import Hero from './components/Hero'
 import Jonatan from './components/jonatan'
 
@@ -33,6 +35,8 @@ function App() {
         <br />
         <Link to="/chocorramo"> Chocorramo </Link>
         <br />
+        <Link to="/tarjetas"> Tarjetas </Link>
+        <br />
         <Link to="/jonatan"> Jonatan </Link>
         <Link to="/Aura"> Aura </Link>
 
@@ -48,6 +52,7 @@ function App() {
         <Routes>
           <Route path="/hero" element={<Hero />} />
           <Route path="/santiago" element={<Santiago />} />
+          <Route path="/tarjetas" element={<Tarjetas />} />
           <Route path="/jonatan" element={<Jonatan />} />
           <Route path="/chocorramo" element={<Chocorramo />} />
           <Route path="/Aura" element={<Aura />} />
