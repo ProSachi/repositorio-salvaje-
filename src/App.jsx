@@ -1,6 +1,5 @@
 import './App.css'
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
-import Santiago from './components/Santiago'
 import Hero from './components/Hero'
 import JuanZapata from './components/JuanZapata/JuanZapata'
 
